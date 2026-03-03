@@ -1,66 +1,41 @@
 import pandas as pd
 import os
 from fpdf import FPDF
+from fpdf.enums import XPos, YPos
 from collections import defaultdict
+from datetime import datetime
+import textwrap
 
-# ------------------- CONFIG -------------------
+# -----------------------------
+# CONFIG: Add your templates here
+# -----------------------------
 templates = [
     {
         "name": "CanCOGeN",
         "slots_file": "/Users/anoosha/GitHub/import_checker/CanCOGeN-slots.tsv",
         "enums_file": "/Users/anoosha/GitHub/import_checker/CanCOGeN-enums.tsv"
-    },
-    # Example future template:
-    # {
-    #     "name": "Mpox",
-    #     "slots_file": "path/to/mpox-slots.tsv",
-    #     "enums_file": "path/to/mpox-enums.tsv"
-    # }
+    }
 ]
 
 import_path = "/Users/anoosha/GitHub/GenEpiO/src/ontology/imports/"
-debug = False  # True to print first 5 rows of templates
+debug = False
 
-# ------------------- FUNCTIONS -------------------
-
+# -----------------------------
+# Load IDs from import files
+# -----------------------------
 def load_ids_from_file(file_path):
-    """Load all IDs from a given import file."""
     ids = set()
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
-                if line:
+                if line and not line.startswith("#"):
                     ids.update(line.split())
         return ids
     except FileNotFoundError:
         print(f"⚠️ File not found: {file_path}")
         return set()
 
-def normalize_to_iri(oid):
-    """Normalize CURIE to OBO IRI."""
-    if ":" in oid:
-        prefix, local_id = oid.split(":", 1)
-        return f"http://purl.obolibrary.org/obo/{prefix}_{local_id}"
-    return oid
-
-def check_id_in_imports(oid, import_sets):
-    """Check if the ID exists in any import file."""
-    iri = normalize_to_iri(oid)
-    for data in import_sets.values():
-        if oid in data["ids"] or iri in data["ids"]:
-            return os.path.basename(data["file"])
-    return None
-
-def format_ids_in_columns(ids_list, col_width=5):
-    """Return IDs as string in multiple columns for PDF."""
-    lines = []
-    for i in range(0, len(ids_list), col_width):
-        line_ids = ids_list[i:i+col_width]
-        lines.append(", ".join(line_ids))
-    return lines
-
-# ------------------- LOAD IMPORT FILES -------------------
 import_sets = {}
 for filename in os.listdir(import_path):
     if filename.endswith(".txt"):
@@ -68,119 +43,167 @@ for filename in os.listdir(import_path):
         ids = load_ids_from_file(full_path)
         import_sets[filename] = {"file": full_path, "ids": ids}
         print(f"✅ Loaded {filename}: {len(ids)} IDs")
-
 print(f"\nTotal import files loaded: {len(import_sets)}\n")
 
-# Keep a set of all checked import file names for PDF
-import_files_checked = sorted(import_sets.keys())
+# -----------------------------
+# Helper functions
+# -----------------------------
+def normalize_to_iri(oid):
+    if ":" in oid:
+        prefix, local_id = oid.split(":", 1)
+        return f"http://purl.obolibrary.org/obo/{prefix}_{local_id}"
+    return oid
 
-# ------------------- PDF SETUP -------------------
+def check_id_in_imports(oid):
+    iri = normalize_to_iri(oid)
+    for data in import_sets.values():
+        if oid in data["ids"] or iri in data["ids"]:
+            return os.path.basename(data["file"])
+    return None
+
+# -----------------------------
+# Timestamp
+# -----------------------------
+gen_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# -----------------------------
+# Initialize PDF
+# -----------------------------
 pdf = FPDF()
 pdf.set_auto_page_break(auto=True, margin=15)
 pdf.add_page()
-pdf.set_font("Arial", 'B', 16)
-pdf.cell(0, 10, "Import Checker Report", ln=True, align="C")
-pdf.ln(3)
 
-pdf.set_font("Arial", '', 12)
-pdf.multi_cell(0, 6,
-               "This report checks all IDs from DataHarmonizer templates "
-               "(slots and enums) against ontology import files, excluding GENEPIO IDs. "
-               "It highlights missing IDs and where IDs were found in import files.")
+pdf.set_font("Helvetica", 'B', 16)
+pdf.cell(0, 10, "Import Checker Report", new_x=XPos.LMARGIN, new_y=YPos.NEXT, align="C")
+pdf.set_font("Helvetica", '', 12)
+pdf.cell(0, 8, f"Generated on: {gen_date}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 pdf.ln(5)
 
-# ------------------- PROCESS EACH TEMPLATE -------------------
-all_missing_ids = defaultdict(list)  # Group missing IDs across all templates by prefix
-all_found_details = defaultdict(list)  # Group found IDs across all templates by prefix
+pdf.multi_cell(0, 6,
+    "This report checks all IDs from DataHarmonizer templates (slots and enums) "
+    "against the ontology import files, excluding GENEPIO IDs. "
+    "It highlights counts and missing IDs."
+)
+pdf.ln(5)
 
+# -----------------------------
+# Import files checked
+# -----------------------------
+pdf.set_font("Helvetica", 'B', 12)
+pdf.cell(0, 8, "--- Import Files Checked ---", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+pdf.set_font("Helvetica", '', 12)
+for fname in sorted(import_sets.keys()):
+    pdf.cell(0, 7, fname, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+pdf.ln(5)
+
+# -----------------------------
+# TSV output collection
+# -----------------------------
+tsv_rows = []
+
+# -----------------------------
+# Loop over templates
+# -----------------------------
 for template in templates:
     template_name = template["name"]
 
     # Load template files
     slots_df = pd.read_csv(template["slots_file"], sep='\t', dtype=str)
     enums_df = pd.read_csv(template["enums_file"], sep='\t', dtype=str)
-    if debug:
-        print(f"Template {template_name} Slots columns:", list(slots_df.columns))
-        print(f"Template {template_name} Enums columns:", list(enums_df.columns))
 
     slots_ids = set(slots_df['slot_uri'].dropna())
     enums_ids = set(enums_df['meaning'].dropna())
     all_ids_raw = slots_ids.union(enums_ids)
-
-    # Separate GENEPIO IDs
     gene_ids = {oid for oid in all_ids_raw if oid.startswith("GENEPIO:")}
     all_ids = all_ids_raw - gene_ids
+
+    # Map IDs to source (Slots or Enum)
+    id_source_map = {oid: "Unique Slot ID" for oid in slots_ids}
+    id_source_map.update({oid: "Unique Enum ID" for oid in enums_ids})
 
     # Check IDs
     found_details = []
     missing_ids = []
-    for oid in all_ids:
-        result = check_id_in_imports(oid, import_sets)
+    for oid in sorted(all_ids):
+        source_type = id_source_map.get(oid, "")
+        result = check_id_in_imports(oid)
         if result:
             found_details.append((oid, result))
-            all_found_details[oid.split(":")[0]].append((oid, result))
+            tsv_rows.append({
+                "Ontology ID": oid,
+                "Template": template_name,
+                "Template Source": source_type,
+                "Status": "Found",
+                "Source Import File": os.path.basename(result),
+                "Generated On": gen_date
+            })
         else:
             missing_ids.append(oid)
-            all_missing_ids[oid.split(":")[0]].append(oid)
+            tsv_rows.append({
+                "Ontology ID": oid,
+                "Template": template_name,
+                "Template Source": source_type,
+                "Status": "Missing",
+                "Source Import File": "",
+                "Generated On": gen_date
+            })
 
-    # ------------------- TEMPLATE SUMMARY -------------------
-    pdf.set_font("Arial", 'B', 12)
-    pdf.cell(0, 8, f"--- Template: {template_name} ---", ln=True)
-    pdf.set_font("Arial", '', 12)
+    # -----------------------------
+    # Template Summary in PDF
+    # -----------------------------
+    pdf.set_font("Helvetica", 'B', 12)
+    pdf.cell(0, 8, f"--- Template: {template_name} ---", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
-    summary_lines = [
-        f"Total IDs in slots file: {len(slots_ids)}",
-        f"Total IDs in enums file: {len(enums_ids)}",
-        f"Combined IDs (unique): {len(all_ids_raw)}",
-        f"GENEPIO IDs skipped: {len(gene_ids)}",
-        f"Total checked against imports: {len(all_ids)}",
-        f"  - Found: {len(found_details)}",
-        f"  - Missing: {len(missing_ids)}"
+    pdf.set_font("Helvetica", '', 12)
+    summary = [
+        ("Unique Slot IDs", len(slots_ids)),
+        ("Unique Enum IDs", len(enums_ids)),
+        ("Total IDs", len(all_ids_raw)),
+        ("GENEPIO IDs skipped", len(gene_ids)),
+        ("Checked IDs", len(all_ids)),
+        ("Missing IDs", len(missing_ids))
     ]
-    for line in summary_lines:
-        pdf.cell(0, 7, line, ln=True)
+    for label, count in summary:
+        pdf.cell(70, 7, f"{label}:", border=0)
+        pdf.cell(30, 7, str(count), border=0)
+        pdf.ln(7)
+    pdf.ln(3)
+
+    # -----------------------------
+    # Missing IDs summary (PDF)
+    # -----------------------------
+    pdf.set_font("Helvetica", 'B', 12)
+    pdf.cell(0, 8, "--- Missing IDs by Ontology Prefix (top examples) ---",
+             new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_font("Helvetica", '', 11)
+
+    missing_by_prefix = defaultdict(list)
+    for mid in missing_ids:
+        prefix = mid.split(":")[0]
+        missing_by_prefix[prefix].append(mid)
+
+    for prefix, ids_list in sorted(missing_by_prefix.items()):
+        count = len(ids_list)
+        # show first 5 examples, wrap text
+        examples = ", ".join(ids_list[:5])
+        if count > 5:
+            examples += ", ..."
+        wrapped_lines = textwrap.wrap(examples, width=70)
+        pdf.cell(0, 7, f"{prefix} - Missing: {count}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        for line in wrapped_lines:
+            pdf.cell(0, 6, f"   Examples: {line}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
     pdf.ln(5)
 
-# ------------------- IMPORT FILES CHECKED -------------------
-pdf.set_font("Arial", 'B', 12)
-pdf.cell(0, 8, "--- Import Files Checked ---", ln=True)
-pdf.set_font("Arial", '', 12)
-pdf.multi_cell(0, 7, ", ".join(import_files_checked))
-pdf.ln(5)
-
-# ------------------- MISSING IDS SUMMARY -------------------
-pdf.set_font("Arial", 'B', 12)
-pdf.cell(0, 8, "--- Missing IDs by Ontology Prefix ---", ln=True)
-pdf.set_font("Arial", '', 12)
-
-for prefix, ids_list in sorted(all_missing_ids.items()):
-    pdf.set_font("Arial", 'B', 11)
-    pdf.cell(0, 7, f"{prefix} ({len(ids_list)} missing):", ln=True)
-    pdf.set_font("Arial", '', 11)
-    lines = format_ids_in_columns(sorted(ids_list), col_width=5)
-    for l in lines:
-        pdf.cell(0, 6, l, ln=True)
-    pdf.ln(2)
-pdf.ln(5)
-
-# ------------------- FOUND IDS SUMMARY -------------------
-pdf.set_font("Arial", 'B', 12)
-pdf.cell(0, 8, "--- Found IDs by Ontology Prefix ---", ln=True)
-pdf.set_font("Arial", '', 12)
-
-for prefix, items in sorted(all_found_details.items()):
-    pdf.set_font("Arial", 'B', 11)
-    pdf.cell(0, 7, f"{prefix} ({len(items)} found):", ln=True)
-    pdf.set_font("Arial", '', 11)
-    # Print in columns: ID -> file
-    lines = []
-    for oid, ffile in items:
-        lines.append(f"{oid} -> {ffile}")
-    col_lines = format_ids_in_columns(lines, col_width=3)  # fewer columns because long strings
-    for l in col_lines:
-        pdf.cell(0, 6, l, ln=True)
-    pdf.ln(2)
-
-# ------------------- SAVE PDF -------------------
+# -----------------------------
+# Save PDF (overwrite existing file)
+# -----------------------------
 pdf.output("Import_Checker_Report.pdf")
 print("✅ PDF report generated: Import_Checker_Report.pdf")
+
+# -----------------------------
+# Save TSV (overwrite existing file)
+# -----------------------------
+tsv_df = pd.DataFrame(tsv_rows)
+tsv_df = tsv_df[["Ontology ID", "Template", "Template Source", "Status", "Source Import File", "Generated On"]]
+tsv_df.to_csv("Import_Checker_Output.tsv", sep='\t', index=False)
+print("✅ TSV output generated: Import_Checker_Output.tsv")

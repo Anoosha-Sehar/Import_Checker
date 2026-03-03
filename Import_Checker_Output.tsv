@@ -1,0 +1,692 @@
+Ontology ID	Template	Template Source	Status	Source Import File	Generated On
+BTO:0000195	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0000836	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0001444	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0001865	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0001950	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0002035	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0002181	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+BTO:0002750	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0002909	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0002924	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+BTO:0004755	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+CIDO:0000019	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+CIDO:0000027	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+CLO:0007330	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+DOID:2531	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:1000033	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:1000034	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:1000035	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:1000036	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:1000037	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:1000040	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:1000041	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:3000005	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:5000008	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:5000009	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ECTO:6000030	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+EFO:0009642	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+ENVO:00000467	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+ENVO:00001998	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:00002001	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:00002006	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:00002018	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:00002040	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+ENVO:00002173	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+ENVO:00003040	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:00003043	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:00003896	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:00003968	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:01000060	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+ENVO:01000404	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+ENVO:01000422	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:01000481	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:01000486	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+ENVO:01000536	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:01000927	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:01000990	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:02000058	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501109	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501121	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501127	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501130	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501133	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501135	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501136	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501145	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501152	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501180	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501186	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501194	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501196	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501198	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501204	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501208	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501209	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501210	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501211	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501212	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501213	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501214	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501215	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501216	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501217	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501218	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501219	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501220	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+ENVO:03501256	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+FOODON:00002403	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+FOODON:03490100	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+GAZ:00000462	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+GAZ:00000463	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000469	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000558	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000560	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000562	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000563	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000564	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000565	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000566	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000567	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000581	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000582	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000583	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000584	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000585	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000586	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000591	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000843	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000849	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000904	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000905	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000906	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000907	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000908	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000909	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000910	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000911	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000912	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000913	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000914	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00000915	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001086	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001087	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001088	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001089	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001090	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001091	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001092	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001093	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001094	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001095	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001096	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001097	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001098	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001099	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001100	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001101	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001102	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001103	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001104	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001105	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001106	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001107	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001108	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001227	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001251	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001264	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001412	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001453	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001507	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001550	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00001551	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002284	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002459	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+GAZ:00002473	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002474	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002475	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002476	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002478	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002511	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002516	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002522	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002525	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002560	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002562	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+GAZ:00002563	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002564	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002565	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002566	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002567	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002569	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002570	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002571	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002572	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002574	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+GAZ:00002575	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+GAZ:00002576	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+GAZ:00002637	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002646	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002650	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002699	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002719	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002721	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002724	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002729	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002733	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002747	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002801	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002802	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002825	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002828	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002839	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002845	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002852	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002892	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002894	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002901	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002912	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002918	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002928	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002929	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002930	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002931	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002932	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002933	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002934	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002935	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002936	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002937	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002938	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002939	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002941	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002942	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002943	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002945	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002946	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002947	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002948	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002950	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002951	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002952	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002953	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002954	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002955	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002956	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002957	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002958	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002959	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002960	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00002978	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003102	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003202	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003203	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003706	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003727	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003744	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003745	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003750	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003753	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003756	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003762	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003767	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003781	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003857	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003858	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003897	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003901	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003902	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003920	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003922	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003923	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003924	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003934	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003940	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003942	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003943	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003945	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003952	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003953	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003955	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003957	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003958	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003959	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003961	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003986	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003987	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003988	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00003990	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004006	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004017	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004025	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004094	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004126	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004399	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004474	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004483	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004525	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004941	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004942	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004979	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00004999	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005018	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005206	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005246	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005275	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005279	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005281	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005282	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005283	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005284	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005285	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005286	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005341	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005396	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005682	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005808	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005809	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005810	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005811	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005812	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005820	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005838	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005841	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005852	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005853	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005862	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005867	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005901	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005908	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005915	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00005917	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006882	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006883	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006886	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006887	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006888	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006889	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006890	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006891	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006893	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006894	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006895	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006898	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006899	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006900	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006902	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006905	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006906	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006909	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006910	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006912	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006913	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006916	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006918	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006922	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006924	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006927	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00006935	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007111	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007112	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007114	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007116	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007117	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007118	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007119	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007120	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007144	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007161	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00007191	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00008744	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00009159	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00009571	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00009572	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00009715	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+GAZ:00009718	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00009721	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00010831	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00010832	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00011337	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00012579	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00012582	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00023304	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00025355	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00052477	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00053798	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00059206	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00067142	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00067143	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00233439	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:00260188	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:02000565	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GAZ:02000573	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GSSO:000132	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GSSO:004004	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+GSSO:004005	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+HP:0000083	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000206	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000223	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000224	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000421	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000458	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000509	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000737	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000819	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000822	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000961	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000964	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0000988	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001063	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001197	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001250	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001259	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001287	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001289	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001297	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001298	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001324	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001350	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001397	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001410	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001513	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001635	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001638	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001649	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001695	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001700	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001742	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001903	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001919	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001945	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0001977	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002013	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002014	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002018	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002027	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002039	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002076	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002090	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002094	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002097	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002099	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002105	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002107	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002108	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002140	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002202	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002204	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002206	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002315	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002321	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002371	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002383	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002583	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002615	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002625	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002633	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002716	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002789	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002829	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002878	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002900	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002901	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0002917	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0003111	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0003201	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0003326	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0003470	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0004396	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0004408	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0004409	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0004420	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0004469	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0005268	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0005978	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0006510	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0006528	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0011009	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0011029	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0011097	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0011410	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0011446	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0011675	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0012378	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0012417	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0012418	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0012531	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0012622	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0012735	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0020219	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0025095	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0025143	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0025144	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0025145	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0025406	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0025439	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0030149	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0030829	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0030953	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031179	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031245	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031246	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031249	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031258	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031273	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031352	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031417	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0031677	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0032556	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0033677	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0033696	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0033709	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0033771	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0033834	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0041051	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0100279	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0100280	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0100543	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0100651	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0100749	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0100806	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+HP:0500165	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+IDO:0000567	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+IDO:0000636	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MMO:0000344	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+MONDO:0001208	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0002046	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0002075	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0003346	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0004670	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0004781	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0004992	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005027	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005068	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005071	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005087	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005109	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005139	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005154	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005240	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005265	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005267	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005275	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005404	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005554	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0005575	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0007254	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0008903	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0009061	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0009971	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0011382	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0012268	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0012727	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0013792	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0015796	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0016218	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0018076	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0019056	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0024619	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0024880	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0041656	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0044348	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0100096	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0100163	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0100192	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0100233	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0100319	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MONDO:0600008	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MP:0001867	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MP:0031127	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+MPATH:108	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NBO:0001845	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NBO:0015005	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:2697049	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:2709072	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:452646	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:58055	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:59477	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:8930	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9031	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9397	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9606	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+NCBITaxon:9615	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9673	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9685	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9689	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9694	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9825	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9913	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9973	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCBITaxon:9974	CanCOGeN	Unique Enum ID	Found	ncbitaxon_ontofox.txt	2026-03-03 14:11:11
+NCIT:C110959	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C113609	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C115935	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+NCIT:C121416	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C131759	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C14139	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C15248	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C15327	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+NCIT:C15360	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C15631	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+NCIT:C15632	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C157332	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C157740	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C159659	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C16118	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C16212	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C168498	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C171550	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C171551	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C171562	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C173621	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C173768	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C211	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C25179	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C25182	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C25254	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C25269	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C25742	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C28221	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+NCIT:C28293	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C28554	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+NCIT:C30103	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C3079	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C3149	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C3364	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C35018	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C3833	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+NCIT:C46109	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C46110	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C49498	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C52009	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+NCIT:C70909	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C80693	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+NCIT:C92743	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+OBI:0000436	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0000869	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0000880	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+OBI:0000895	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0001010	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+OBI:0001128	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002088	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002600	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002627	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002650	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002651	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002754	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002787	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002790	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002791	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002796	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002825	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002826	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002827	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002831	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002858	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002859	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002860	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002861	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002862	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0002866	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0302885	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0600016	CanCOGeN	Unique Enum ID	Found	obi_terms_combined.txt	2026-03-03 14:11:11
+OBI:0600044	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+OMRSE:00000001	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+OMRSE:00000013	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+OMRSE:00000014	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+OMRSE:00000030	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+OMRSE:00000058	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+PCO:0000033	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+PCO:0000034	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+PCO:0000035	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+PCO:0000037	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+PCO:0000038	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+PCO:0000039	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+TRANS:0000001	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UBERON:0000160	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0000173	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0000178	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0000341	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+UBERON:0000479	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0000912	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0000945	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0000970	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001003	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UBERON:0001043	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001052	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UBERON:0001087	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001088	CanCOGeN	Unique Enum ID	Missing		2026-03-03 14:11:11
+UBERON:0001089	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001245	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001359	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UBERON:0001557	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001558	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001707	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001728	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001729	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001827	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001836	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UBERON:0001913	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0001988	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UBERON:0002048	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0002114	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0002169	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0002185	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0002186	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0002402	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0002409	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0002453	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0003126	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0005921	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0005922	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0006314	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UBERON:0006530	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0006956	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0007311	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UBERON:0009778	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:0036243	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UBERON:2001427	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
+UO:0000033	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UO:0000035	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+UO:0000036	CanCOGeN	Unique Enum ID	Found	ro_terms_combined.txt	2026-03-03 14:11:11
+VO:0004925	CanCOGeN	Unique Enum ID	Found	general_ontofox.txt	2026-03-03 14:11:11
