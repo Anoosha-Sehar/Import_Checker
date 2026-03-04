@@ -1,5 +1,21 @@
 # Import Checker
 
+## Table of Contents
+- [About](#about)
+- [Ontology Import Files](#ontology-import-files)
+- [DataHarmonizer Templates](#dataharmonizer-templates)
+- [Template Folder Structure](#template-folder-structure)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Output](#output)
+- [Notes](#notes)
+- [Customization](#customization)
+
+---
+
+## About
+
 **Import Checker** is a Python script that verifies ontology IDs from DataHarmonizer template files (slots and enums) against **GenEpiO import files**. It highlights missing IDs and generates a PDF summary and a detailed TSV report.
 
 ---
@@ -16,9 +32,10 @@ import_path = "/path/to/GenEpiO/src/ontology/imports/"
 ```
 ---
 ## DataHarmonizer Templates
-
 - Templates can be downloaded from [this spreadsheet](https://docs.google.com/spreadsheets/d/1jPQAIJcL_xa3oBVFEsYRGLGf7ESTOwzsTSjKZ-0CTYE/edit?gid=208305190#gid=208305190).  
 - Place all templates in the `templates/` folder of the **Import Checker repository**.  
+
+### Template Naming Convention
 - Template filenames should follow this recommended format:
   - `template-slots.tsv`
   - `template-enums.tsv`
@@ -69,7 +86,7 @@ If you download templates from DataHarmonizer without renaming, the script will 
 Run the script from the root of the repository:
 
 ```bash
-	python main.py
+python main.py
 ```
 The script will automatically detect all templates in the templates/ folder and all import files in the imports/ folder.
 
@@ -93,7 +110,7 @@ After running, the following files will be generated in the same folder:
     - **Source Import File** – which import file the ID was found in (if any)
     - **Report Generated** – timestamp of the run
 ---
-## Notes:
+## Notes
 
    - GENEPIO IDs are skipped in checks.
    - Running the script overwrites existing PDF and TSV files with updated content.
