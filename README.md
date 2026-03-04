@@ -120,3 +120,7 @@ After running, the following files will be generated in the same folder:
 
   - Add your own DataHarmonizer templates to the templates/ directory.
   - Add new ontology import files to the imports/ directory. The script automatically loads all .txt files in that folder.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) – see the LICENSE file for details. You are free to use, modify, and distribute the code as allowed under this license.
