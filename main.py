@@ -4,21 +4,12 @@ from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 from collections import defaultdict
 from datetime import datetime
-import textwrap
 
 # -----------------------------
-# CONFIG: Add your templates here
+# CONFIG
 # -----------------------------
-templates = [
-    {
-        "name": "CanCOGeN",
-        "slots_file": "/Users/anoosha/GitHub/import_checker/CanCOGeN-slots.tsv",
-        "enums_file": "/Users/anoosha/GitHub/import_checker/CanCOGeN-enums.tsv"
-    }
-]
-
 import_path = "/Users/anoosha/GitHub/GenEpiO/src/ontology/imports/"
-debug = False
+templates_folder = "/Users/anoosha/GitHub/import_checker/templates/"
 
 # -----------------------------
 # Load IDs from import files
@@ -62,9 +53,28 @@ def check_id_in_imports(oid):
     return None
 
 # -----------------------------
-# Timestamp
+# Auto-detect templates
 # -----------------------------
-gen_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+templates = []
+slots_files = sorted([f for f in os.listdir(templates_folder) if f.endswith("-slots.tsv")])
+
+for slots_file in slots_files:
+    template_name = slots_file.replace("-slots.tsv", "")
+    slots_path = os.path.join(templates_folder, slots_file)
+    enums_path = os.path.join(templates_folder, f"{template_name}-enums.tsv")
+    if os.path.exists(enums_path):
+        templates.append({
+            "name": template_name,
+            "slots_file": slots_path,
+            "enums_file": enums_path
+        })
+    else:
+        print(f"⚠️ Enum file missing for template {template_name}, skipping this template")
+
+if not templates:
+    raise RuntimeError("No valid templates found. Check templates folder and file names.")
+
+print(f"✅ Templates loaded: {[t['name'] for t in templates]}")
 
 # -----------------------------
 # Initialize PDF
@@ -75,19 +85,19 @@ pdf.add_page()
 
 pdf.set_font("Helvetica", 'B', 16)
 pdf.cell(0, 10, "Import Checker Report", new_x=XPos.LMARGIN, new_y=YPos.NEXT, align="C")
-pdf.set_font("Helvetica", '', 12)
-pdf.cell(0, 8, f"Generated on: {gen_date}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-pdf.ln(5)
+pdf.ln(3)
 
+pdf.set_font("Helvetica", '', 12)
+date_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 pdf.multi_cell(0, 6,
-    "This report checks all IDs from DataHarmonizer templates (slots and enums) "
-    "against the ontology import files, excluding GENEPIO IDs. "
-    "It highlights counts and missing IDs."
+    f"This report checks all IDs from DataHarmonizer templates (slots and enums) "
+    f"against the ontology import files, excluding GENEPIO IDs. "
+    f"It highlights missing IDs.\n\nReport generated on: {date_str}"
 )
 pdf.ln(5)
 
 # -----------------------------
-# Import files checked
+# Section: Import files checked
 # -----------------------------
 pdf.set_font("Helvetica", 'B', 12)
 pdf.cell(0, 8, "--- Import Files Checked ---", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
@@ -117,93 +127,82 @@ for template in templates:
     gene_ids = {oid for oid in all_ids_raw if oid.startswith("GENEPIO:")}
     all_ids = all_ids_raw - gene_ids
 
-    # Map IDs to source (Slots or Enum)
-    id_source_map = {oid: "Unique Slot ID" for oid in slots_ids}
-    id_source_map.update({oid: "Unique Enum ID" for oid in enums_ids})
+    # Map source type for TSV
+    id_source_map = {}
+    for oid in slots_ids:
+        id_source_map[oid] = "Unique Slot ID"
+    for oid in enums_ids:
+        id_source_map[oid] = "Unique Enum ID"
 
     # Check IDs
-    found_details = []
     missing_ids = []
     for oid in sorted(all_ids):
         source_type = id_source_map.get(oid, "")
         result = check_id_in_imports(oid)
-        if result:
-            found_details.append((oid, result))
-            tsv_rows.append({
-                "Ontology ID": oid,
-                "Template": template_name,
-                "Template Source": source_type,
-                "Status": "Found",
-                "Source Import File": os.path.basename(result),
-                "Generated On": gen_date
-            })
-        else:
+        tsv_rows.append({
+            "Ontology ID": oid,
+            "Template": template_name,
+            "Template Source": source_type,
+            "Status": "Found" if result else "Missing",
+            "Source Import File": os.path.basename(result) if result else "",
+            "Report Generated": date_str
+        })
+        if not result:
             missing_ids.append(oid)
-            tsv_rows.append({
-                "Ontology ID": oid,
-                "Template": template_name,
-                "Template Source": source_type,
-                "Status": "Missing",
-                "Source Import File": "",
-                "Generated On": gen_date
-            })
 
-    # -----------------------------
-    # Template Summary in PDF
-    # -----------------------------
+    # Template Summary
     pdf.set_font("Helvetica", 'B', 12)
-    pdf.cell(0, 8, f"--- Template: {template_name} ---", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-
-    pdf.set_font("Helvetica", '', 12)
-    summary = [
-        ("Unique Slot IDs", len(slots_ids)),
-        ("Unique Enum IDs", len(enums_ids)),
-        ("Total IDs", len(all_ids_raw)),
-        ("GENEPIO IDs skipped", len(gene_ids)),
-        ("Checked IDs", len(all_ids)),
-        ("Missing IDs", len(missing_ids))
-    ]
-    for label, count in summary:
-        pdf.cell(70, 7, f"{label}:", border=0)
-        pdf.cell(30, 7, str(count), border=0)
-        pdf.ln(7)
-    pdf.ln(3)
-
-    # -----------------------------
-    # Missing IDs summary (PDF)
-    # -----------------------------
-    pdf.set_font("Helvetica", 'B', 12)
-    pdf.cell(0, 8, "--- Missing IDs by Ontology Prefix (top examples) ---",
+    pdf.cell(0, 8, f"--- Template: {template_name} ---",
              new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-    pdf.set_font("Helvetica", '', 11)
+    pdf.set_font("Helvetica", '', 12)
+    pdf.cell(50, 7, "Unique Slot IDs:", border=1)
+    pdf.cell(50, 7, str(len(slots_ids)), border=1)
+    pdf.ln(7)
+    pdf.cell(50, 7, "Unique Enum IDs:", border=1)
+    pdf.cell(50, 7, str(len(enums_ids)), border=1)
+    pdf.ln(7)
+    pdf.cell(50, 7, "Total IDs:", border=1)
+    pdf.cell(50, 7, str(len(all_ids_raw)), border=1)
+    pdf.ln(7)
+    pdf.cell(50, 7, "GENEPIO IDs skipped:", border=1)
+    pdf.cell(50, 7, str(len(gene_ids)), border=1)
+    pdf.ln(7)
+    pdf.cell(50, 7, "Checked IDs:", border=1)
+    pdf.cell(50, 7, str(len(all_ids)), border=1)
+    pdf.ln(7)
+    pdf.cell(50, 7, "Missing IDs:", border=1)
+    pdf.cell(50, 7, str(len(missing_ids)), border=1)
+    pdf.ln(10)
 
-    missing_by_prefix = defaultdict(list)
+    # Missing IDs by Prefix
+    missing_by_prefix = defaultdict(int)
     for mid in missing_ids:
         prefix = mid.split(":")[0]
-        missing_by_prefix[prefix].append(mid)
+        missing_by_prefix[prefix] += 1
 
-    for prefix, ids_list in sorted(missing_by_prefix.items()):
-        count = len(ids_list)
-        # show first 5 examples, wrap text
-        examples = ", ".join(ids_list[:5])
-        if count > 5:
-            examples += ", ..."
-        wrapped_lines = textwrap.wrap(examples, width=70)
-        pdf.cell(0, 7, f"{prefix} - Missing: {count}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-        for line in wrapped_lines:
-            pdf.cell(0, 6, f"   Examples: {line}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-    pdf.ln(5)
+    pdf.set_font("Helvetica", '', 11)
+    pdf.cell(0, 7, "--- Missing IDs by Ontology Prefix ---",
+             new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
-# -----------------------------
-# Save PDF (overwrite existing file)
-# -----------------------------
-pdf.output("Import_Checker_Report.pdf")
-print("✅ PDF report generated: Import_Checker_Report.pdf")
+    pdf.set_font("Helvetica", '', 10)
+    for prefix, count in sorted(missing_by_prefix.items()):
+        pdf.cell(0, 6, f"{prefix} - Missing: {count}",
+                 new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
+    # Page break before next template
+    pdf.add_page()
 # -----------------------------
-# Save TSV (overwrite existing file)
+# Save PDF and TSV
 # -----------------------------
+pdf_file = "Import_Checker_Report.pdf"
+tsv_file = "Import_Checker_Output.tsv"
+
+pdf.output(pdf_file)
+print(f"✅ PDF report generated: {pdf_file}")
+
 tsv_df = pd.DataFrame(tsv_rows)
-tsv_df = tsv_df[["Ontology ID", "Template", "Template Source", "Status", "Source Import File", "Generated On"]]
-tsv_df.to_csv("Import_Checker_Output.tsv", sep='\t', index=False)
-print("✅ TSV output generated: Import_Checker_Output.tsv")
+tsv_df = tsv_df[[
+    "Ontology ID", "Template", "Template Source", "Status", "Source Import File", "Report Generated"
+]]
+tsv_df.to_csv(tsv_file, sep='\t', index=False)
+print(f"✅ TSV output generated: {tsv_file}")
