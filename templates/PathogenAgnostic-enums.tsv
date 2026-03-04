@@ -1,0 +1,683 @@
+title	name	menu_1	menu_2	menu_3	menu_4	menu_5	meaning	description	EXPORT_GISAID	EXPORT_CNPHI	EXPORT_NML_LIMS	EXPORT_BIOSAMPLE	EXPORT_VirusSeq_Portal	
+														
+null value menu	NullValueMenu	Not Applicable					GENEPIO:0001619							
+		Missing					GENEPIO:0001618							
+		Not Collected					GENEPIO:0001620							
+		Not Provided					GENEPIO:0001668							
+		Restricted Access					GENEPIO:0001810							
+														
+geo_loc_name (state/province/territory) menu	GeoLocNameStateProvinceTerritoryMenu	Alberta					GAZ:00002566							
+		British Columbia					GAZ:00002562							
+		Manitoba					GAZ:00002571							
+		New Brunswick					GAZ:00002570							
+		Newfoundland and Labrador					GAZ:00002567							
+		Northwest Territories					GAZ:00002575							
+		Nova Scotia					GAZ:00002565							
+		Nunavut					GAZ:00002574							
+		Ontario					GAZ:00002563							
+		Prince Edward Island					GAZ:00002572							
+		Quebec					GAZ:00002569							
+		Saskatchewan					GAZ:00002564							
+		Yukon					GAZ:00002576							
+														
+														
+host age unit menu	HostAgeUnitMenu	month					UO:0000035							
+		year					UO:0000036							
+														
+														
+sample collection date precision menu	SampleCollectionDatePrecisionMenu	year					UO:0000036							
+		month					UO:0000035							
+		day					UO:0000033							
+														
+														
+NML submitted specimen type menu	NMLSubmittedSpecimenTypeMenu	Swab 					OBI:0002600							
+		RNA					OBI:0000880							
+		mRNA (cDNA)					OBI:0002754							
+		Nucleic acid					OBI:0001010							
+		Not Applicable					GENEPIO:0001619							
+														
+Related specimen relationship type menu	RelatedSpecimenRelationshipTypeMenu		Acute				HP:0011009	Sudden appearance of disease manifestations over a short period of time. The word acute is applied to different time scales depending on the disease or manifestation and does not have an exact definition in minutes, hours, or days.						Mpox
+			Convalescent					A specimen collected from an individual during the recovery phase following the resolution of acute symptoms of a disease, often used to assess immune response or recovery progression.						
+			Familial					A specimen obtained from a relative of an individual, often used in studies examining genetic or hereditary factors, or familial transmission of conditions.						
+			Follow-up				EFO:0009642	The process by which information about the health status of an individual is obtained after a study has officially closed; an activity that continues something that has already begun or that repeats something that has already been done.						
+				Reinfection testing				A specimen collected to determine if an individual has been re-exposed to and reinfected by a pathogen after an initial infection and recovery.						
+			Previously Submitted					A specimen that has been previously provided or used in a study or testing but is being considered for re-analysis or additional testing.						
+			Sequencing/bioinformatics methods development/validation					A specimen used specifically for the purpose of developing, testing, or validating sequencing or bioinformatics methodologies.						
+			Specimen sampling methods testing					A specimen used to test, refine, or validate methods and techniques for collecting and processing samples.						
+														
+														
+anatomical material menu	AnatomicalMaterialMenu	Blood					UBERON:0000178							
+		Fluid					UBERON:0006314							
+			Saliva				UBERON:0001836							
+			Fluid (cerebrospinal (CSF))				UBERON:0001359							
+			Fluid (pericardial)				UBERON:0002409							
+			Fluid (pleural)				UBERON:0001087							
+			Fluid (vaginal)				UBERON:0036243							
+			Fluid (amniotic)				UBERON:0000173							
+		Tissue					UBERON:0000479							
+														
+														
+anatomical part menu	AnatomicalPartMenu	Anus					UBERON:0001245							
+		Buccal mucosa					UBERON:0006956							
+		Duodenum					UBERON:0002114							
+		Eye					UBERON:0000970							
+		Intestine					UBERON:0000160							
+		Lower respiratory tract					UBERON:0001558							
+			Bronchus				UBERON:0002185							
+			Lung				UBERON:0002048							
+				Bronchiole			UBERON:0002186							
+				Alveolar sac			UBERON:0002169							
+			Pleural sac				UBERON:0009778							
+				Pleural cavity			UBERON:0002402							
+			Trachea				UBERON:0003126							
+		Rectum					UBERON:0001052							
+		Skin					UBERON:0001003							
+		Stomach					UBERON:0000945							
+		Upper respiratory tract					UBERON:0001557							
+			Anterior Nares				UBERON:2001427							
+			Esophagus				UBERON:0001043							
+			Ethmoid sinus				UBERON:0002453							
+			Nasal Cavity				UBERON:0001707							
+				Middle Nasal Turbinate			UBERON:0005921							
+				Inferior Nasal Turbinate			UBERON:0005922							
+			Nasopharynx (NP)				UBERON:0001728							
+			Oropharynx (OP)				UBERON:0001729							
+														
+														
+body product menu	BodyProductMenu	Breast Milk					UBERON:0001913							
+		Feces					UBERON:0001988							
+		Fluid (seminal)					UBERON:0006530							
+		Mucus					UBERON:0000912							
+			Sputum				UBERON:0007311							
+		Sweat					UBERON:0001089							
+		Tear					UBERON:0001827							
+		Urine					UBERON:0001088							
+														
+														
+environmental material menu	EnvironmentalMaterialMenu	Air vent					ENVO:03501208							
+		Banknote					ENVO:00003896							
+		Bed rail					ENVO:03501209							
+		Building floor					ENVO:01000486							
+		Cloth					ENVO:02000058							
+		Control panel					ENVO:03501210							
+		Door  					ENVO:03501220							
+		Door handle					ENVO:03501211							
+		Face mask					OBI:0002787							
+		Face shield					OBI:0002791							
+		Food					FOODON:00002403							
+		Food packaging					FOODON:03490100							
+		Glass					ENVO:01000481							
+		Handrail					ENVO:03501212							
+		Hospital gown					OBI:0002796							
+		Light switch					ENVO:03501213							
+		Locker					ENVO:03501214							
+		N95 mask					OBI:0002790							
+		Nurse call button 					ENVO:03501215							
+		Paper					ENVO:03501256							
+		Particulate matter					ENVO:01000060							
+		Plastic					ENVO:01000404							
+		PPE gown					GENEPIO:0100025							
+		Sewage					ENVO:00002018							
+		Sink					ENVO:01000990							
+		Soil					ENVO:00001998							
+		Stainless steel					ENVO:03501216							
+		Tissue paper					ENVO:03501217							
+		Toilet bowl					ENVO:03501218							
+		Water					ENVO:00002006							
+			Wastewater				ENVO:00002001							
+		Window					ENVO:03501219							
+		Wood					ENVO:00002040							
+														
+														
+environmental site menu	EnvironmentalSiteMenu	Acute care facility					ENVO:03501135							
+		Animal house					ENVO:00003040							
+		Bathroom					ENVO:01000422							
+		Clinical assessment centre					ENVO:03501136							
+		Conference venue					ENVO:03501127							
+		Corridor					ENVO:03501121							
+		Daycare					ENVO:01000927							
+		Emergency room (ER)					ENVO:03501145							
+		Family practice clinic					ENVO:03501186							
+		Group home					ENVO:03501196							
+		Homeless shelter					ENVO:03501133							
+		Hospital					ENVO:00002173							
+		Intensive Care Unit (ICU)					ENVO:03501152							
+		Long Term Care Facility					ENVO:03501194							
+		Patient room					ENVO:03501180							
+		Prison					ENVO:03501204							
+		Production Facility					ENVO:01000536							
+		School					ENVO:03501130							
+		Sewage Plant					ENVO:00003043							
+		Subway train					ENVO:03501109							
+		University campus					ENVO:00000467							
+		Wet market					ENVO:03501198							
+														
+														
+collection method menu	CollectionMethodMenu	Amniocentesis					NCIT:C52009							
+		Aspiration					NCIT:C15631							
+			Suprapubic Aspiration				GENEPIO:0100028							
+			Tracheal aspiration				GENEPIO:0100029							
+			Vacuum Aspiration				GENEPIO:0100030							
+		Biopsy					OBI:0002650							
+			Needle Biopsy				OBI:0002651							
+		Filtration					OBI:0302885							
+			Air filtration				GENEPIO:0100031							
+		Lavage					OBI:0600044							
+			Bronchoalveolar lavage (BAL)				GENEPIO:0100032							
+			Gastric Lavage				GENEPIO:0100033							
+		Lumbar Puncture					NCIT:C15327							
+		Necropsy					MMO:0000344							
+		Phlebotomy					NCIT:C28221							
+		Rinsing					GENEPIO:0002116							
+			Saline gargle (mouth rinse and gargle)				GENEPIO:0100034							
+		Scraping					GENEPIO:0100035							
+		Swabbing					GENEPIO:0002117							
+		Finger Prick					GENEPIO:0100036							
+		Washout Tear Collection					GENEPIO:0100038							
+														
+														
+collection device menu	CollectionDeviceMenu	Air filter					ENVO:00003968							
+		Blood Collection Tube					OBI:0002859							
+		Bronchoscope					OBI:0002826							
+		Collection Container					OBI:0002088							
+		Collection Cup					GENEPIO:0100026							
+		Fibrobronchoscope Brush					OBI:0002825							
+		Filter					GENEPIO:0100103							
+		Fine Needle					OBI:0002827							
+		Microcapillary tube					OBI:0002858							
+		Micropipette					OBI:0001128							
+		Needle					OBI:0000436							
+		Serum Collection Tube					OBI:0002860							
+		Sputum Collection Tube					OBI:0002861							
+		Suction Catheter					OBI:0002831							
+		Swab					GENEPIO:0100027							
+		Urine Collection Tube					OBI:0002862							
+		Virus Transport Medium					OBI:0002866							
+														
+														
+host (scientific name) menu	HostScientificNameMenu	Homo sapiens					NCBITaxon:9606							
+		Bos taurus					NCBITaxon:9913							
+		Canis lupus familiaris					NCBITaxon:9615							
+		Chiroptera					NCBITaxon:9397							
+		Columbidae					NCBITaxon:8930							
+		Felis catus					NCBITaxon:9685							
+		Gallus gallus					NCBITaxon:9031							
+		Manis					NCBITaxon:9973							
+		Manis javanica					NCBITaxon:9974							
+		Neovison vison					NCBITaxon:452646							
+		Panthera leo					NCBITaxon:9689							
+		Panthera tigris					NCBITaxon:9694							
+		Rhinolophidae					NCBITaxon:58055							
+		Rhinolophus affinis					NCBITaxon:59477							
+		Sus scrofa domesticus					NCBITaxon:9825							
+		Viverridae					NCBITaxon:9673							
+														
+														
+														
+organism menu	OrganismMenu	Severe acute respiratory syndrome coronavirus 2					NCBITaxon:2697049							
+		Monkeypox virus												
+		Enteric bacteria												
+			Escherichia coli											
+		Enteric virus												
+			Norovirus											
+														
+														
+purpose of sampling menu	PurposeOfSamplingMenu	Cluster/Outbreak investigation					GENEPIO:0100001							
+		Diagnostic testing					GENEPIO:0100002							
+		Research					GENEPIO:0100003							
+		Surveillance 					GENEPIO:0100004							
+														
+														
+purpose of sequencing menu	PurposeOfSequencingMenu	Baseline surveillance (random sampling)					GENEPIO:0100005							
+		Targeted surveillance (non-random sampling)					GENEPIO:0100006							
+			Priority surveillance project				GENEPIO:0100007							
+				Screening for Variants of Concern (VoC)			GENEPIO:0100008							
+					Sample has epidemiological link to Variant of Concern (VoC)		GENEPIO:0100273							
+						Sample has epidemiological link to Omicron Variant 	GENEPIO:0100274							
+				Longitudinal surveillance (repeat sampling of individuals) 			GENEPIO:0100009							
+				Re-infection surveillance 			GENEPIO:0100010							
+				Vaccine escape surveillance			GENEPIO:0100011							
+				Travel-associated surveillance			GENEPIO:0100012							
+					Domestic travel surveillance		GENEPIO:0100013							
+						Interstate/ interprovincial travel surveillance	GENEPIO:0100275							
+						Intra-state/ intra-provincial travel surveillance	GENEPIO:0100276							
+					International travel surveillance		GENEPIO:0100014							
+						Surveillance of international border crossing by air travel or ground transport	GENEPIO:0100015							
+						Surveillance of international border crossing by air travel	GENEPIO:0100016							
+						Surveillance of international border crossing by ground transport	GENEPIO:0100017							
+						Surveillance from international worker testing	GENEPIO:0100018							
+		Cluster/Outbreak investigation					GENEPIO:0100019							
+			Multi-jurisdictional outbreak investigation				GENEPIO:0100020							
+			Intra-jurisdictional outbreak investigation				GENEPIO:0100021							
+		Research					GENEPIO:0100022							
+			Protocol testing experiment				GENEPIO:0100024							
+		Retrospective sequencing					GENEPIO:0100356							
+														
+														
+specimen processing menu	SpecimenProcessingMenu	Virus passage					GENEPIO:0100039							
+		RNA re-extraction (post RT-PCR)					GENEPIO:0100040							
+		Specimens pooled					OBI:0600016							
+														
+														
+host disease menu	HostDiseaseMenu	COVID-19					MONDO:0100096							
+		Gastrointestinal disease												
+														
+														
+host age bin menu	HostAgeBinMenu	0 - 9					GENEPIO:0100049							
+		10 - 19					GENEPIO:0100050							
+		20 - 29					GENEPIO:0100051							
+		30 - 39					GENEPIO:0100052							
+		40 - 49					GENEPIO:0100053							
+		50 - 59					GENEPIO:0100054							
+		60 - 69					GENEPIO:0100055							
+		70 - 79					GENEPIO:0100056							
+		80 - 89					GENEPIO:0100057							
+		90 - 99					GENEPIO:0100058						90+	
+		100+					GENEPIO:0100059						90+	
+														
+														
+host gender menu	HostGenderMenu	Female					NCIT:C46110							
+		Male					NCIT:C46109							
+		Non-binary gender					GSSO:000132							
+		Transgender (assigned male at birth)					GSSO:004004							
+		Transgender (assigned female at birth)					GSSO:004005							
+		Undeclared					NCIT:C110959							
+														
+														
+sequencing instrument menu	SequencingInstrumentMenu	Illumina					GENEPIO:0100105							
+			Illumina Genome Analyzer				GENEPIO:0100106							
+				Illumina Genome Analyzer II			GENEPIO:0100107							
+				Illumina Genome Analyzer IIx			GENEPIO:0100108							
+			Illumina HiScanSQ				GENEPIO:0100109							
+			Illumina HiSeq 				GENEPIO:0100110							
+				Illumina HiSeq X 			GENEPIO:0100111							
+					Illumina HiSeq X Five		GENEPIO:0100112							
+					Illumina HiSeq X Ten		GENEPIO:0100113							
+				Illumina HiSeq 1000			GENEPIO:0100114							
+				Illumina HiSeq 1500			GENEPIO:0100115							
+				Illumina HiSeq 2000			GENEPIO:0100116							
+				Illumina HiSeq 2500			GENEPIO:0100117							
+				Illumina HiSeq 3000			GENEPIO:0100118							
+				Illumina HiSeq 4000			GENEPIO:0100119							
+			Illumina iSeq				GENEPIO:0100120							
+				Illumina iSeq 100			GENEPIO:0100121							
+			Illumina NovaSeq				GENEPIO:0100122							
+				Illumina NovaSeq 6000			GENEPIO:0100123							
+			Illumina MiniSeq				GENEPIO:0100124							
+			Illumina MiSeq				GENEPIO:0100125							
+			Illumina NextSeq 				GENEPIO:0100126							
+				Illumina NextSeq 500			GENEPIO:0100127							
+				Illumina NextSeq 550			GENEPIO:0100128							
+				Illumina NextSeq 2000			GENEPIO:0100129							
+		Pacific Biosciences					GENEPIO:0100130							
+			PacBio RS				GENEPIO:0100131							
+			PacBio RS II				GENEPIO:0100132							
+			PacBio Sequel				GENEPIO:0100133							
+			PacBio Sequel II				GENEPIO:0100134							
+		Ion Torrent					GENEPIO:0100135							
+			Ion Torrent PGM				GENEPIO:0100136							
+			Ion Torrent Proton				GENEPIO:0100137							
+			Ion Torrent S5 XL				GENEPIO:0100138							
+			Ion Torrent S5				GENEPIO:0100139							
+		Oxford Nanopore					GENEPIO:0100140							
+			Oxford Nanopore GridION				GENEPIO:0100141							
+			Oxford Nanopore MinION				GENEPIO:0100142							
+			Oxford Nanopore PromethION				GENEPIO:0100143							
+		BGI Genomics					GENEPIO:0100144							
+			BGI Genomics BGISEQ-500				GENEPIO:0100145							
+		MGI					GENEPIO:0100146							
+			MGI DNBSEQ-T7				GENEPIO:0100147							
+			MGI DNBSEQ-G400				GENEPIO:0100148							
+			MGI DNBSEQ-G400 FAST				GENEPIO:0100149							
+			MGI DNBSEQ-G50				GENEPIO:0100150							
+														
+														
+sequenced by menu	SequencedByMenu	Alberta Precision Labs (APL)												
+			Alberta ProvLab North (APLN)											
+			Alberta ProvLab South (APLS)											
+		BCCDC Public Health Laboratory												
+		Laboratoire de santé publique du Québec (LSPQ)												
+		Manitoba Cadham Provincial Laboratory												
+		National Microbiology Laboratory (NML)												
+		New Brunswick - Vitalité Health Network												
+		Newfoundland and Labrador - Eastern Health												
+		Nova Scotia Health Authority												
+		Ontario Institute for Cancer Research (OICR)												
+		Prince Edward Island - Health PEI												
+		Public Health Ontario (PHO)												
+		Saskatchewan - Roy Romanow Provincial Laboratory (RRPL)												
+														
+														
+sequence submitted by menu	SequenceSubmittedByMenu	Alberta Precision Labs (APL)												
+			Alberta ProvLab North (APLN)											
+			Alberta ProvLab South (APLS)											
+		BCCDC Public Health Laboratory												
+		Canadore College												
+		The Centre for Applied Genomics (TCAG)												
+		Dynacare												
+		Dynacare (Brampton)												
+		Dynacare (Manitoba)												
+		The Hospital for Sick Children (SickKids)												
+		Laboratoire de santé publique du Québec (LSPQ)												
+		Manitoba Cadham Provincial Laboratory												
+		McGill University												
+		McMaster University												
+		National Microbiology Laboratory (NML)												
+		New Brunswick - Vitalité Health Network												
+		Newfoundland and Labrador - Eastern Health												
+		Nova Scotia Health Authority												
+		Ontario Institute for Cancer Research (OICR)												
+		Prince Edward Island - Health PEI												
+		Public Health Ontario (PHO)												
+		Queen's University / Kingston Health Sciences Centre												
+		Saskatchewan - Roy Romanow Provincial Laboratory (RRPL)												
+		Sunnybrook Health Sciences Centre												
+		Thunder Bay Regional Health Sciences Centre												
+														
+														
+ sample collected by menu	SampleCollectedByMenu	Alberta Precision Labs (APL)												
+			Alberta ProvLab North (APLN)											
+			Alberta ProvLab South (APLS)											
+		BCCDC Public Health Laboratory												
+		Dynacare												
+		Dynacare (Manitoba)												
+		Dynacare (Brampton)												
+		Eastern Ontario Regional Laboratory Association												
+		Hamilton Health Sciences												
+		The Hospital for Sick Children (SickKids)												
+		Laboratoire de santé publique du Québec (LSPQ)												
+		Lake of the Woods District Hospital - Ontario												
+		LifeLabs												
+		LifeLabs (Ontario)												
+		Manitoba Cadham Provincial Laboratory												
+		McMaster University												
+		Mount Sinai Hospital												
+		National Microbiology Laboratory (NML)												
+		New Brunswick - Vitalité Health Network												
+		Newfoundland and Labrador - Eastern Health												
+		Nova Scotia Health Authority												
+		Nunavut												
+		Ontario Institute for Cancer Research (OICR)												
+		Prince Edward Island - Health PEI												
+		Public Health Ontario (PHO)												
+		Queen's University / Kingston Health Sciences Centre												
+		Saskatchewan - Roy Romanow Provincial Laboratory (RRPL)												
+		Shared Hospital Laboratory												
+		St. John's Rehab at Sunnybrook Hospital												
+		Switch Health												
+		Sunnybrook Health Sciences Centre												
+		Unity Health Toronto												
+		William Osler Health System												
+														
+														
+geo_loc_name (country) menu	GeoLocNameCountryMenu	Afghanistan					GAZ:00006882							
+		Albania					GAZ:00002953							
+		Algeria					GAZ:00000563							
+		American Samoa					GAZ:00003957							
+		Andorra					GAZ:00002948							
+		Angola					GAZ:00001095							
+		Anguilla					GAZ:00009159							
+		Antarctica					GAZ:00000462							
+		Antigua and Barbuda					GAZ:00006883							
+		Argentina					GAZ:00002928							
+		Armenia					GAZ:00004094							
+		Aruba					GAZ:00004025							
+		Ashmore and Cartier Islands					GAZ:00005901							
+		Australia					GAZ:00000463							
+		Austria					GAZ:00002942							
+		Azerbaijan					GAZ:00004941							
+		Bahamas					GAZ:00002733							
+		Bahrain					GAZ:00005281							
+		Baker Island					GAZ:00007117							
+		Bangladesh					GAZ:00003750							
+		Barbados					GAZ:00001251							
+		Bassas da India					GAZ:00005810							
+		Belarus					GAZ:00006886							
+		Belgium					GAZ:00002938							
+		Belize					GAZ:00002934							
+		Benin					GAZ:00000904							
+		Bermuda					GAZ:00001264							
+		Bhutan					GAZ:00003920							
+		Bolivia					GAZ:00002511							
+		Borneo					GAZ:00025355							
+		Bosnia and Herzegovina					GAZ:00006887							
+		Botswana					GAZ:00001097							
+		Bouvet Island					GAZ:00001453							
+		Brazil					GAZ:00002828							
+		British Virgin Islands					GAZ:00003961							
+		Brunei					GAZ:00003901							
+		Bulgaria					GAZ:00002950							
+		Burkina Faso					GAZ:00000905							
+		Burundi					GAZ:00001090							
+		Cambodia					GAZ:00006888							
+		Cameroon					GAZ:00001093							
+		Canada					GAZ:00002560							
+		Cape Verde					GAZ:00001227							
+		Cayman Islands					GAZ:00003986							
+		Central African Republic					GAZ:00001089							
+		Chad					GAZ:00000586							
+		Chile					GAZ:00002825							
+		China					GAZ:00002845							
+		Christmas Island					GAZ:00005915							
+		Clipperton Island					GAZ:00005838							
+		Cocos Islands					GAZ:00009721							
+		Colombia					GAZ:00002929							
+		Comoros					GAZ:00005820							
+		Cook Islands					GAZ:00053798							
+		Coral Sea Islands					GAZ:00005917							
+		Costa Rica					GAZ:00002901							
+		Cote d'Ivoire					GAZ:00000906							
+		Croatia					GAZ:00002719							
+		Cuba					GAZ:00003762							
+		Curacao					GAZ:00012582							
+		Cyprus					GAZ:00004006							
+		Czech Republic					GAZ:00002954							
+		Democratic Republic of the Congo					GAZ:00001086							
+		Denmark					GAZ:00005852							
+		Djibouti					GAZ:00000582							
+		Dominica					GAZ:00006890							
+		Dominican Republic					GAZ:00003952							
+		Ecuador					GAZ:00002912							
+		Egypt					GAZ:00003934							
+		El Salvador					GAZ:00002935							
+		Equatorial Guinea					GAZ:00001091							
+		Eritrea					GAZ:00000581							
+		Estonia					GAZ:00002959							
+		Eswatini					GAZ:00001099							
+		Ethiopia					GAZ:00000567							
+		Europa Island					GAZ:00005811							
+		Falkland Islands (Islas Malvinas)					GAZ:00001412							
+		Faroe Islands					GAZ:00059206							
+		Fiji					GAZ:00006891							
+		Finland					GAZ:00002937							
+		France					GAZ:00003940							
+		French Guiana					GAZ:00002516							
+		French Polynesia					GAZ:00002918							
+		French Southern and Antarctic Lands					GAZ:00003753							
+		Gabon					GAZ:00001092							
+		Gambia					GAZ:00000907							
+		Gaza Strip					GAZ:00009571							
+		Georgia					GAZ:00004942							
+		Germany					GAZ:00002646							
+		Ghana					GAZ:00000908							
+		Gibraltar					GAZ:00003987							
+		Glorioso Islands					GAZ:00005808							
+		Greece					GAZ:00002945							
+		Greenland					GAZ:00001507							
+		Grenada					GAZ:02000573							
+		Guadeloupe					GAZ:00067142							
+		Guam					GAZ:00003706							
+		Guatemala					GAZ:00002936							
+		Guernsey					GAZ:00001550							
+		Guinea					GAZ:00000909							
+		Guinea-Bissau					GAZ:00000910							
+		Guyana					GAZ:00002522							
+		Haiti					GAZ:00003953							
+		Heard Island and McDonald Islands					GAZ:00009718							
+		Honduras					GAZ:00002894							
+		Hong Kong					GAZ:00003203							
+		Howland Island					GAZ:00007120							
+		Hungary					GAZ:00002952							
+		Iceland					GAZ:00000843							
+		India					GAZ:00002839							
+		Indonesia					GAZ:00003727							
+		Iran					GAZ:00004474							
+		Iraq					GAZ:00004483							
+		Ireland					GAZ:00002943							
+		Isle of Man					GAZ:00052477							
+		Israel					GAZ:00002476							
+		Italy					GAZ:00002650							
+		Jamaica					GAZ:00003781							
+		Jan Mayen					GAZ:00005853							
+		Japan					GAZ:00002747							
+		Jarvis Island					GAZ:00007118							
+		Jersey					GAZ:00001551							
+		Johnston Atoll					GAZ:00007114							
+		Jordan					GAZ:00002473							
+		Juan de Nova Island					GAZ:00005809							
+		Kazakhstan					GAZ:00004999							
+		Kenya					GAZ:00001101							
+		Kerguelen Archipelago					GAZ:00005682							
+		Kingman Reef					GAZ:00007116							
+		Kiribati					GAZ:00006894							
+		Kosovo					GAZ:00011337							
+		Kuwait					GAZ:00005285							
+		Kyrgyzstan					GAZ:00006893							
+		Laos					GAZ:00006889							
+		Latvia					GAZ:00002958							
+		Lebanon					GAZ:00002478							
+		Lesotho					GAZ:00001098							
+		Liberia					GAZ:00000911							
+		Libya					GAZ:00000566							
+		Liechtenstein					GAZ:00003858							
+		Line Islands					GAZ:00007144							
+		Lithuania					GAZ:00002960							
+		Luxembourg					GAZ:00002947							
+		Macau					GAZ:00003202							
+		Madagascar					GAZ:00001108							
+		Malawi					GAZ:00001105							
+		Malaysia					GAZ:00003902							
+		Maldives					GAZ:00006924							
+		Mali					GAZ:00000584							
+		Malta					GAZ:00004017							
+		Marshall Islands					GAZ:00007161							
+		Martinique					GAZ:00067143							
+		Mauritania					GAZ:00000583							
+		Mauritius					GAZ:00003745							
+		Mayotte					GAZ:00003943							
+		Mexico					GAZ:00002852							
+		Micronesia					GAZ:00005862							
+		Midway Islands					GAZ:00007112							
+		Moldova					GAZ:00003897							
+		Monaco					GAZ:00003857							
+		Mongolia					GAZ:00008744							
+		Montenegro					GAZ:00006898							
+		Montserrat					GAZ:00003988							
+		Morocco					GAZ:00000565							
+		Mozambique					GAZ:00001100							
+		Myanmar					GAZ:00006899							
+		Namibia					GAZ:00001096							
+		Nauru					GAZ:00006900							
+		Navassa Island					GAZ:00007119							
+		Nepal					GAZ:00004399							
+		Netherlands					GAZ:00002946							
+		New Caledonia					GAZ:00005206							
+		New Zealand					GAZ:00000469							
+		Nicaragua					GAZ:00002978							
+		Niger					GAZ:00000585							
+		Nigeria					GAZ:00000912							
+		Niue					GAZ:00006902							
+		Norfolk Island					GAZ:00005908							
+		North Korea					GAZ:00002801							
+		North Macedonia					GAZ:00006895							
+		North Sea					GAZ:00002284							
+		Northern Mariana Islands					GAZ:00003958							
+		Norway					GAZ:00002699							
+		Oman					GAZ:00005283							
+		Pakistan					GAZ:00005246							
+		Palau					GAZ:00006905							
+		Panama					GAZ:00002892							
+		Papua New Guinea					GAZ:00003922							
+		Paracel Islands					GAZ:00010832							
+		Paraguay					GAZ:00002933							
+		Peru					GAZ:00002932							
+		Philippines					GAZ:00004525							
+		Pitcairn Islands					GAZ:00005867							
+		Poland					GAZ:00002939							
+		Portugal					GAZ:00004126							
+		Puerto Rico					GAZ:00006935							
+		Qatar					GAZ:00005286							
+		Republic of the Congo					GAZ:00001088							
+		Reunion					GAZ:00003945							
+		Romania					GAZ:00002951							
+		Ross Sea					GAZ:00023304							
+		Russia					GAZ:00002721							
+		Rwanda					GAZ:00001087							
+		Saint Helena					GAZ:00000849							
+		Saint Kitts and Nevis					GAZ:00006906							
+		Saint Lucia					GAZ:00006909							
+		Saint Pierre and Miquelon					GAZ:00003942							
+		Saint Martin					GAZ:00005841							
+		Saint Vincent and the Grenadines					GAZ:02000565							
+		Samoa					GAZ:00006910							
+		San Marino					GAZ:00003102							
+		Sao Tome and Principe					GAZ:00006927							
+		Saudi Arabia					GAZ:00005279							
+		Senegal					GAZ:00000913							
+		Serbia					GAZ:00002957							
+		Seychelles					GAZ:00006922							
+		Sierra Leone					GAZ:00000914							
+		Singapore					GAZ:00003923							
+		Sint Maarten					GAZ:00012579							
+		Slovakia					GAZ:00002956							
+		Slovenia					GAZ:00002955							
+		Solomon Islands					GAZ:00005275							
+		Somalia					GAZ:00001104							
+		South Africa					GAZ:00001094							
+		South Georgia and the South Sandwich Islands					GAZ:00003990							
+		South Korea					GAZ:00002802							
+		South Sudan					GAZ:00233439							
+		Spain					GAZ:00000591							
+		Spratly Islands					GAZ:00010831							
+		Sri Lanka					GAZ:00003924							
+		State of Palestine					GAZ:00002475							
+		Sudan					GAZ:00000560							
+		Suriname					GAZ:00002525							
+		Svalbard					GAZ:00005396							
+		Swaziland					GAZ:00001099							
+		Sweden					GAZ:00002729							
+		Switzerland					GAZ:00002941							
+		Syria					GAZ:00002474							
+		Taiwan					GAZ:00005341							
+		Tajikistan					GAZ:00006912							
+		Tanzania					GAZ:00001103							
+		Thailand					GAZ:00003744							
+		Timor-Leste					GAZ:00006913							
+		Togo					GAZ:00000915							
+		Tokelau					GAZ:00260188							
+		Tonga					GAZ:00006916							
+		Trinidad and Tobago					GAZ:00003767							
+		Tromelin Island					GAZ:00005812							
+		Tunisia					GAZ:00000562							
+		Turkey					GAZ:00000558							
+		Turkmenistan					GAZ:00005018							
+		Turks and Caicos Islands					GAZ:00003955							
+		Tuvalu					GAZ:00009715							
+		United States of America					GAZ:00002459							
+		Uganda					GAZ:00001102							
+		Ukraine					GAZ:00002724							
+		United Arab Emirates					GAZ:00005282							
+		United Kingdom					GAZ:00002637							
+		Uruguay					GAZ:00002930							
+		Uzbekistan					GAZ:00004979							
+		Vanuatu					GAZ:00006918							
+		Venezuela					GAZ:00002931							
+		Viet Nam					GAZ:00003756							
+		Virgin Islands					GAZ:00003959							
+		Wake Island					GAZ:00007111							
+		Wallis and Futuna					GAZ:00007191							
+		West Bank					GAZ:00009572							
+		Western Sahara					GAZ:00000564							
+		Yemen					GAZ:00005284							
+		Zambia					GAZ:00001107							
+		Zimbabwe					GAZ:00001106							
