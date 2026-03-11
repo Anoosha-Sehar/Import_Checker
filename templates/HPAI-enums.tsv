@@ -149,7 +149,7 @@ food_product menu	FoodProductMenu	ENVO:02000047	Animal feed [ENVO:02000047]					
 		FOODON:03000384				Turkey upper thigh (with skin) [FOODON:03000384]		Turkey's upper thigh that contains the skin.	
 		FOODON:03000371		Turkey wing [FOODON:03000371]					
 		FOODON:00003083		Veal [FOODON:00003083]				Veal is the meat of calves, in contrast to the beef from older cattle. Veal can be produced from a calf of either sex and any breed; however, most veal comes from young males of dairy breeds which are not used for breeding.	
-		OODON:000039111			Formula fed veal [FOODON:000039111]				
+		FOODON:000039111			Formula fed veal [FOODON:000039111]				
 		FOODON:00004280			Grain-fed veal [FOODON:00004280]			Meat from a calf that is raised on grain, hay, or other solid food, in addition to milk	
 									
 									
@@ -580,7 +580,7 @@ host (food production name) menu	HostFoodProductionNameMenu		Cow (by age/product
 			Pig (by age/production stage) (organizational term)						
 		FOODON:00003371		Finisher pig [FOODON:00003371]				A grower pig over 70 kg (150 lb) liveweight.	
 		FOODON:00003370		Grower pig [FOODON:00003370]				A pig between weaning and sale or transfer to the breeding herd, sold for slaughter or killed for rations.	
-		OODON:00004297		Nursing pig [FOODON:00004297 ]					
+		FOODON:00004297		Nursing pig [FOODON:00004297 ]					
 		NCBITaxon:9823		Pig [NCBITaxon:9823]				A stout-bodied, hooved and short-legged, omnivorous mammal from the species Sus scofus, with thick skin usually sparsely coated with short bristles.	
 		FOODON:00003952		Piglet [FOODON:00003952]				An unweaned or immature pig.	
 		FOODON:00003373		Weanling (weaner) pig [FOODON:00003373]				A young pig recently separated from the sow	
@@ -602,7 +602,7 @@ host (food production name) menu	HostFoodProductionNameMenu		Cow (by age/product
 		FOODON:00002962		Poult [FOODON:00002962]				A poult is a young domestic chicken, turkey, pheasant, or other fowl being raised for food.	
 		FOODON:00004303		Pullet [FOODON:00004303]				A young hen, especially one less than one year old.	
 		FOODON:03411714		Rooster [FOODON:03411714]				A mature male chicken with coarse skin, toughened and darkened meat, and hardened breastbone tip.	
-		OODON:00004304		Tom (Gobbler) [FOODON:00004304 ]					
+		FOODON:00004304		Tom (Gobbler) [FOODON:00004304 ]					
 		NCBITaxon:9103		Turkey [NCBITaxon:9103]				A large, mainly domesticated game bird characterized by a bald head and wattles (in the male) of the species Meleagris gallopavo.	
 		NCBITaxon:9940	Sheep [NCBITaxon:9940]					A domesticated, even-toed, ungluate, ruminant mammal typically kept as livestock for its wool and meat, usually of the species Ovis aries.	
 		FOODON:00004305		Ram [FOODON:00004305]				An adult male sheep kept for breeding and for wool production.	
