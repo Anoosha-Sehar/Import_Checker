@@ -20,3 +20,6 @@ skip_prefixes = ["genepio:"]
 
 # Regex pattern for valid IDs
 id_pattern = r"[A-Za-z0-9_-]+:[A-Za-z0-9_-]+"
+
+# For consistency checker only: include everything (empty list = include all)
+consistency_skip_prefixes = []  # GenePIO, NCIT, etc. will all be checked

@@ -9,9 +9,7 @@ from datetime import datetime
 # Make parent folder visible so we can import config
 # -------------------------------------------------
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from config import templates_folder, output_folder, skip_prefixes, id_pattern
-
+from config import templates_folder, output_folder, id_pattern, consistency_skip_prefixes as skip_prefixes
 # -------------------------------------------------
 # HELPER FUNCTIONS
 # -------------------------------------------------
@@ -38,14 +36,17 @@ def normalize_prefix(oid, canonical_prefix_map):
     return f"{canonical_prefix}:{rest}"
 
 
-def is_valid_id(oid):
+def is_valid_id(oid, include_genepio=False):
     """
     Validate ID format and skip unwanted prefixes.
+    include_genepio=True allows GenePIO IDs.
     """
     if not re.match(id_pattern, oid):
         return False
     for sp in skip_prefixes:
         if oid.lower().startswith(sp):
+            if include_genepio and sp.lower() == "genepio":
+                continue
             return False
     return True
 
@@ -86,7 +87,6 @@ prefix_case_counter = defaultdict(lambda: defaultdict(int))
 
 for template in templates:
     enums_df = pd.read_csv(template["enums_file"], sep="\t", dtype=str)
-
     for col in enums_df.columns:
         for val in enums_df[col].dropna():
             ids = extract_ids_from_text(val)
@@ -121,7 +121,6 @@ for template in templates:
             continue
 
         meaning_id = meaning_raw.strip()
-
         if not is_valid_id(meaning_id):
             continue
 
@@ -131,7 +130,7 @@ for template in templates:
         found_columns = []
         mismatch_details = []
 
-        # Check each column individually
+        # Check each menu/text column
         for col in check_columns:
             if col not in enums_df.columns:
                 continue
@@ -139,10 +138,11 @@ for template in templates:
             cell_value = row.get(col)
             menu_ids = extract_ids_from_text(cell_value)
 
+            # include GenEpiO for mismatch checking
             normalized_menu_ids = [
                 normalize_prefix(mid, canonical_prefix_map)
                 for mid in menu_ids
-                if is_valid_id(mid)
+                if is_valid_id(mid, include_genepio=True)
             ]
 
             if normalized_menu_ids:
@@ -175,16 +175,30 @@ for template in templates:
 
 
 # -------------------------------------------------
-# SAVE REPORT
+# SAVE FULL REPORT
 # -------------------------------------------------
 
 os.makedirs(output_folder, exist_ok=True)
 
-output_file = os.path.join(
+output_file_full = os.path.join(
     output_folder,
     "Consistency_Check_Report.tsv"
 )
 
-pd.DataFrame(rows).to_csv(output_file, sep="\t", index=False)
+pd.DataFrame(rows).to_csv(output_file_full, sep="\t", index=False)
+print(f"✅ Full consistency check report generated: {output_file_full}")
 
-print(f"✅ Consistency check report generated: {output_file}")
+
+# -------------------------------------------------
+# SAVE CONCISE MISMATCH REPORT
+# -------------------------------------------------
+
+mismatch_rows = [r for r in rows if r["Status"].startswith("Mismatch")]
+
+output_file_mismatch = os.path.join(
+    output_folder,
+    "Consistency_Check_Mismatches.tsv"
+)
+
+pd.DataFrame(mismatch_rows).to_csv(output_file_mismatch, sep="\t", index=False)
+print(f"✅ Concise mismatch report generated: {output_file_mismatch}")
